@@ -1,0 +1,32 @@
+body{
+     background-color:lightcoral;   
+}
+header{
+    background-color:crimson;
+}
+logo{
+    background-color: darkkhaki;
+}
+nav{
+    background-color: darkorchid;
+}
+main{
+    background-color: crimson;
+}
+section{
+    background-color:burlywood;
+}
+footer{
+    background-color: lime;
+}
+main{
+    background-color: cornflowerblue;
+    width: 80%
+    margin left: auto
+    mardin right:auto
+}
+header{
+    background-color: darkorchid;
+    padding:3%
+
+}
