@@ -22,11 +22,20 @@ footer{
 main{
     background-color: cornflowerblue;
     width: 80%
-    margin left: auto
-    mardin right:auto
+    margin-left: auto
+    mardin-right:auto
 }
 header{
     background-color: darkorchid;
     padding:3%
-
+}
+footer{
+    background-color: chartreuse;
+    padding: 3%;
+}
+.cabeçalho{
+    padding:3%;
+}
+.rodape{
+    padding:3%;
 }
