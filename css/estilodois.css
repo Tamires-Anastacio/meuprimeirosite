@@ -1,32 +1,29 @@
 body{
      background-color:lightcoral;   
 }
-header{
-    background-color:crimson;
-}
-logo{
-    background-color: darkkhaki;
+.logo{
+    background-color: rgb(124, 11, 77);
 }
 nav{
-    background-color: darkorchid;
+    background-color: rgb(192, 45, 143);
 }
 main{
     background-color: crimson;
 }
 section{
-    background-color:burlywood;
+    
 }
 footer{
     background-color: lime;
 }
 main{
-    background-color: cornflowerblue;
+    background-color: rgb(255, 180, 180);
     width: 80%
     margin-left: auto
     mardin-right:auto
 }
 header{
-    background-color: darkorchid;
+    background-color: rgb(164, 109, 192);
     padding:3%
 }
 footer{
@@ -38,4 +35,16 @@ footer{
 }
 .rodape{
     padding:3%;
+}
+h1,h2{
+    line-height: 3;
+}
+p{
+    line-height: 1.5;
+}
+ul li{
+    line-height: 1.5;
+}
+.titulos{
+    line-height: 3;
 }
