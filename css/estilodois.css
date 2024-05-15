@@ -1,27 +1,53 @@
-body{
-     background-color:lightcoral;   
+body, html{
+    height: 100%;
+    margin: 0px;
 }
+
+.back_img{
+    background-image: url("../img/anne-with-an-e-zacvurxj5wdto0rc.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: center;
+    background-attachment: fixed;
+}
+
 .logo{
     background-color: rgb(124, 11, 77);
 }
+
+.img-logo{
+    width: 10%;
+}
+
+.linha{
+    display: flex;
+    flex-flow: row wrap;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.col-3{
+    width: 25%;
+}
+
+
+.img_galeria{
+    width: 90%;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
 nav{
     background-color: rgb(192, 45, 143);
 }
-main{
-    background-color: crimson;
-}
-section{
-    
-}
-footer{
-    background-color: lime;
-}
+
 main{
     background-color: rgb(255, 180, 180);
-    width: 80%
-    margin-left: auto
-    mardin-right:auto
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
 }
+
 header{
     background-color: rgb(164, 109, 192);
     padding:3%
@@ -30,21 +56,33 @@ footer{
     background-color: chartreuse;
     padding: 3%;
 }
-.cabeçalho{
-    padding:3%;
-}
-.rodape{
-    padding:3%;
-}
+
 h1,h2{
     line-height: 3;
 }
+
 p{
     line-height: 1.5;
 }
-ul li{
+
+ul, li{
     line-height: 1.5;
 }
+
 .titulos{
     line-height: 3;
+}
+
+table{
+    border-collapse: collapse;
+    width: 80%;
+    font-size: 1.2em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2%;
+}
+
+td,th{
+    border: 5px solid red;
+    padding: 1.5%;
 }
