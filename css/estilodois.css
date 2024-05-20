@@ -53,16 +53,18 @@ header{
     padding:3%
 }
 footer{
-    background-color: chartreuse;
+    background-color: rgb(129, 109, 240);
     padding: 3%;
 }
 
 h1,h2{
     line-height: 3;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 p{
     line-height: 1.5;
+    font-family: "Oswald", sans-serif;
 }
 
 ul, li{
