@@ -92,4 +92,26 @@ td,th{
     float: left;
     width: 28%;
 }
+    text-align:center;
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.card{
+    width: calc(33,33%-20px);
+    margin-bottom: 20px;
+    background-color: cornflowerblue;
+    padding: 20px;
+    box-sizing: border-box;
+}
+@media screen and (max-width:480px) {
+    .card{
+        width:calc(50%-20px) /* 2 cards por linha em telas médias */    
+}
+    }
+@media screem and (max-width:480px) {
+    .card
+    
+}
     
