@@ -92,54 +92,41 @@ td,th{
     float: left;
     width: 28%;
 }
-.cards {
+.card {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    margin: 15px;
 }
 
-.card {
-    width: calc(33.33% - 20px); /* 2 cards por linha */
+.tchum{
+    width: calc(33.3% - 15px); 
     margin-bottom: 20px;
-    background-color: #a34985;
     padding: 20px;
     box-sizing: border-box;
 }
 
 @media screen and (max-width: 768px) {
     .card {
-        width: calc(50% - 20px); /* 2 cards por linha em telas médias */
+        width: calc(50% - 20px); 
     }
 }
 
 @media screen and (max-width: 480px) {
     .card {
-        width: calc(100% - 20px); /* 1 card por linha em telas pequenas (celulares) */
+        width: calc(100% - 20px); 
     }
-}
-.cards {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
-
-.card {
-    width: calc(33.33% - 20px); /* 2 cards por linha, os 20px é o espaço de margem entre eles */
-    margin-bottom: 20px;
-    /* background-color: #f2f2f2; */
-    padding: 20px;
-    box-sizing: border-box;
 }
 
 @media screen and (max-width: 768px) {
     .card {
-        width: calc(50% - 20px); /* 2 cards por linha em telas médias */
+        width: calc(50% - 20px); 
     }
 }
 
 @media screen and (max-width: 480px) {
     .card {
-        width: calc(100% - 20px); /* 1 card por linha em telas pequenas (celulares) */
+        width: calc(100% - 20px); 
     }
 }
 table {
@@ -151,7 +138,62 @@ a {
     color: inherit;
     text-decoration: none;
 }
-d iv.static {
+div.static {
     position: static;
-    border: 3px solid #73AD21;
+    border: 3px solid #390970;
   }
+  div.relative {
+    position: relative;
+    left: 30px;
+    border: 3px solid #7107b8;
+  }
+  div.static {
+    position: static;
+    border: 3px solid #470764;
+  }
+  .img_galeria_unboxing.jfif{
+    float: left;
+    width: 28%;
+}
+
+.img_galeria_dowload.jfif{
+    padding: 20px;
+    width: 28%;
+    height: 28%;
+}
+.container {
+    position: relative;
+  }
+  
+  .topleft {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+    font-size: 18px;
+  }
+  
+  img{ 
+    width: 100%;
+    height: auto;
+
+  }
+  .container {
+    position: relative;
+    opacity: 0.8;
+    padding: 20px;
+  }
+  
+  .foto {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+    font-size: 18px;
+    padding: 19px;
+    opacity: 4.0;
+  }
+  .img_galeria_dowload.jfif{
+    width: 100%;
+    height: auto;
+    padding: 20px;
+  }
+
