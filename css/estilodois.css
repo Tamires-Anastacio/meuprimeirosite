@@ -179,7 +179,7 @@ div.static {
   }
   .container {
     position: relative;
-    opacity: 0.8;
+    opacity: 0.7;
     padding: 20px;
   }
   
@@ -197,3 +197,53 @@ div.static {
     padding: 20px;
   }
 
+  #menu-h{
+    margin:0 auto;
+    padding:0;
+    box-sizing:border-box;
+  }
+  #menu-h {
+    list-style:none ;
+    padding: 0;
+    background-color: aqua;
+ }
+ #menu-h li{
+    display: inline;
+ }
+ #menu-h li a{
+    padding: 20px;
+    display: inline-block;
+    text-decoration: none;
+    display: inline;
+ }
+ #menu-h li a:hover{
+    background-color: #7d0eb1;
+ }
+ {
+    margin:0;
+    padding:0;
+ }
+ .card{
+    background-color: antiquewhite;
+    width: 180px;
+    height: 260px;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 16px;
+    background-image: url(tricotando.png);
+
+ }
+.card div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    height: 50%;
+}
+.card h1{
+    font-size: 1.2rem;
+}
