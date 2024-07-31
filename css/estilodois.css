@@ -265,3 +265,19 @@ div.static {
     height: 90%;
     object-fit: cover;
 }
+html{
+    scroll-behavior: smooth;
+}
+.menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 200px;
+    background: #333;
+    color: #fff;
+    height: 100%;
+    padding: 10px;
+    box-shadow: 2px 0 5px rgba(0,0,0,0.3);
+}
+
+
