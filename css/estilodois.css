@@ -279,5 +279,32 @@ html{
     padding: 10px;
     box-shadow: 2px 0 5px rgba(0,0,0,0.3);
 }
+input[type=text], select{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border:1px #470764;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+input[type=enviar] {
+    width: 100%;
+    background-color: #390970;
+    color: burlywood;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+
+}
+input[type=enviar]:hover {
+    background-color: #9b7eac;
+  }
+  
+  div {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
 
 
