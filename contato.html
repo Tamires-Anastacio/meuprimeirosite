@@ -27,15 +27,27 @@
                         <li><a href="#livros" data-target="Livros">Livros</a></li>
                         <li><a href="#cancelamento">Cancelamento</a></li>
                         </nav>
-                        <h2>Formulário sobre...</h2>
+                        <h2>Responda esse formulário para receber notificações sobre a série</h2>
                         <p>Ao enviar esse formulário, seus dados serão guardados com segurança</p>
-      
-                        <form action="/action_page.php" target="_blank">
-                              <label for="email">Email:</label><br>
-                              <input type="text" value="John"><br>
-                              <label for="tel">Senha do cartão:</label><br>
-                              <input type="text" value="Doe"><br><br>
-                              <input type="Enviar" value="Enviar">
+                        <div>
+                        <form action="/action_page.php">
+                              <label for="email">Email:</label>
+                              <input type="text" id="email" name="email" placeholder="Digite seu email..">>
+
+                              <label for="tel">Telefone:</label>
+                              <input type="text" id="tel" name="Telefone"  placeholder="Digite o seu telefone">
+                              
+                              <label for="continente">Continente</label>
+                              <select id="continente" name="continente">
+                              <option value="américadosul">América do Sul</option>
+                              <option value="Europa">Europa</option>
+                              <option value="africa">África</option>
+                              <option value="oceania">Oceania</option>
+                              <option value="antartida">Antártida</option>
+                         </select>
+                              <input type="enviar" value="Enviar">
                         </form>
+                        </div>
+                        
 </body>
 </html>
